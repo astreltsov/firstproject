@@ -36,3 +36,15 @@
 ## open webpage
 # import webbrowser
 # webbrowser.open('https://docs.python.org/3/library/index.html')
+
+## Sort the list in reverse order
+#my_list.sort(reverse=True)
+
+## Efficient fill of list comprehension
+# squares = [value**2 for value in range(1, 11)]
+# print(squares)
+
+## copy lists
+# my_foods = ['pizza', 'falafel', 'carrot cake']
+# friend_food = my_foods[:]
+
