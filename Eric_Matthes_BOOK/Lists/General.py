@@ -15,12 +15,12 @@
 # squares = [value**2 for value in range(1, 11)]
 # print(squares)
 
-players = ['charly', 'martina', 'michael', 'florence', 'eli']
-print(players)
-#print(players[2:])
-#print(players[-3:])
-for player in players[:3]:
-    print(player.title())
+# players = ['charly', 'martina', 'michael', 'florence', 'eli']
+# print(players)
+# #print(players[2:])
+# #print(players[-3:])
+# for player in players[:3]:
+#     print(player.title())
 
 # my_foods = ['pizza', 'falafel', 'carrot cake']
 # friend_food = my_foods[:]
@@ -30,3 +30,29 @@ for player in players[:3]:
 # print('The last two items in friend_food are:', friend_food[-2:])
 # for food in my_foods[-2:]:
 #     print(food)
+
+# dimensions = (200, 50)
+# print("Original dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
+#
+# dimensions = (400, 100)
+# print("/nModified dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
+
+# foods = ('pizza', 'ice cream', 'banana')
+# for food in foods:
+#     print(food)
+#
+# foods = ('coffee', 'tea', 'banana')
+# print("\nModified dimensions:")
+# for food in foods:
+#     print(food)
+
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
