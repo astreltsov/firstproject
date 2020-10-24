@@ -1,10 +1,10 @@
 n = int(input('Enter the number of athlets: '))
 m = int(input('Enter the number of throws: '))
 arr = []
-for i in range(n):
+for i in range(n):# игроки
     arr_ath = []
-    print("number", i)
-    for j in range(m):
+    print("athlete", i)
+    for j in range(m):# броски
         x = int(input("throw="))
         arr_ath.append(x)
     arr.append(arr_ath)
