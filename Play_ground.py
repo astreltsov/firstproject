@@ -367,5 +367,12 @@
 # import webbrowser
 # webbrowser.open('https://docs.python.org/3/library/index.html')
 
-capitals = {'Germany': 'Berlin', 'Spain': 'Madrid'}
-print(capitals['Germany'])
+# capitals = {'Germany': 'Berlin', 'Spain': 'Madrid'}
+# print(capitals['Germany'])
+
+# nums = list(range(1, 16))
+# print(nums[:5])
+
+## trying to count unique numbers
+# nums = [2, 2, 3, 4, 5, 6]
+# print(nums)
