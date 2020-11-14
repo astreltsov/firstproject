@@ -1,7 +1,7 @@
-# magicians = ['alice', 'david', 'carolina']
-# for magician in magicians:
-#     #print(magician)
-#     print(f"{magician.title()}, that was a great trick!")
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    #print(magician)
+    print(f"{magician.title()}, that was a great trick!")
 
 # numbers = list(range(1, 6))
 # print(numbers)
@@ -50,9 +50,9 @@
 # for food in foods:
 #     print(food)
 
-cars = ['audi', 'bmw', 'subaru', 'toyota']
-for car in cars:
-    if car == 'bmw':
-        print(car.upper())
-    else:
-        print(car.title())
+# cars = ['audi', 'bmw', 'subaru', 'toyota']
+# for car in cars:
+#     if car == 'bmw':
+#         print(car.upper())
+#     else:
+#         print(car.title())

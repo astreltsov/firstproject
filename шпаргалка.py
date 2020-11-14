@@ -228,3 +228,40 @@
 #     return full_name.title()
 # musician = get_formatted_name('jimi', 'hendrix')
 # print(musician)
+
+##function example
+# def print_models(unprinted_designs, completed_models):
+#     """
+#     Simulate printing each design, until none are left.
+#     Move each design to completed_models after printing.
+#     """
+#     while unprinted_designs:
+#         current_design = unprinted_designs.pop()
+#         print(f"Printing model: {current_design}")
+#         completed_models.append(current_design)
+#
+# def show_completed_models(completed_models):
+#     """ Show all the models that were printed """
+#     print("\nThe following models have been printed: ")
+#     for completed_model in completed_models:
+#         print(completed_model)
+#
+# unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+# completed_models = []
+#
+# print_models(unprinted_designs[:], completed_models) # the slice notation [:] makes a copy of the list to send to the function
+# show_completed_models(completed_models)
+
+## Fibonnaci sequence
+# n=20
+# a = 0
+# b = 1
+# for i in range(n):
+#     a,b = b,a+b
+# print(a)
+##copy files
+# def copy_file(infile, outfile):
+#     """Copies the content of infile to a new outfile"""
+#     with open(infile) as file:
+#         with open(outfile, 'w') as file_1:
+#             file_1.write(file.read())

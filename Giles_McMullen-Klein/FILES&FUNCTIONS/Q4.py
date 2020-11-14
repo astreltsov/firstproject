@@ -1,0 +1,6 @@
+f = open('capitals.txt', 'w')
+f.write('London, ')
+f.write('Paris, ')
+f.write('Berlin, ')
+f.write('Madrid, ')
+f.close()
